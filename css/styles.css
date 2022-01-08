@@ -1,0 +1,19 @@
+#originalSize{
+    height: 70vh;
+    /* el 70% de la pantalla */
+    width: 100%;
+}
+
+#originalSize img{
+    display: block;
+    max-width: 100%;
+    max-height: 70vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+#preview img{
+    height: 100px;
+}
+#preview {
+    overflow-x: scroll;
+}
