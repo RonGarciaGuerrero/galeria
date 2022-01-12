@@ -15,5 +15,7 @@
     height: 100px;
 }
 #preview {
+    width:1200px;
+    /* height: 100px; */
     overflow-x: scroll;
 }

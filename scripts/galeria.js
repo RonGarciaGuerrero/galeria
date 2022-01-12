@@ -1,5 +1,5 @@
 window.addEventListener("DOMContentLoaded", function () {//todo lo que debe esperar a que se cargue la pagina se mete en esta función
-    //Entorno:
+    
     //document.getElementById('originalSize').style.backgroundImage = 'url("./img/")';
     let miniaturas = document.querySelectorAll('#preview img');//todas las miniaturas
     for(let i=0;i<miniaturas.length;i++){
