@@ -15,7 +15,28 @@
     height: 100px;
 }
 #preview {
-    width:1200px;
-    /* height: 100px; */
+    width:100%;
+    height: 120px;
     overflow-x: scroll;
+    /* con esto se consigue que el scroll solo sea horizontal */
+    overflow-y: hidden;
+}
+
+#preview div{
+    /* con esto se consigue que el scroll solo sea horizontal */
+    width: max-content;
+}
+
+body{
+    background-image: url(../img/pexels-gdtography-911738.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h1{
+    text-align: center;
+}
+h3{
+    text-align: center;
 }
